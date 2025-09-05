@@ -40,7 +40,7 @@ TEST_CASE("RotateRight function", "[rotate_right]") {
   }
   SECTION("Simple case") {
     std::vector<int> input = {1, 2, 3};
-    REQUIRE((RotateRight(input, 2) == std::vector<int>{3, 1, 2}));
+    REQUIRE((RotateRight(input, 2) == std::vector<int>{2, 3, 1}));
   }
 
   SECTION("Normal case") {
