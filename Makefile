@@ -1,5 +1,5 @@
 CXX = clang++
-CXXFLAGS = -std=c++20 -Wall -Wextra -pedantic -g
+CXXFLAGS = -std=c++20 -Wall -Wextra -pedantic -g -fsanitize=address
 INCLUDES = -I./includes
 
 BIN_DIR = bin
